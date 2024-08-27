@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar-left{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.profile-pic{
+    width: 5%;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    height: auto;
+    cursor: pointer;
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.playlist{
+    width: 10%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.tumbnail{
+    width: 100%;
+    height: 70%;
+}
+
+.tumbnail-image{
+    width: 100%;
+    height: 80%;
+}
+
+.playlist-title,.playlist-details{
+    font-weight: bold;
+}
+
+.test{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.logo,.avatar{
+    height: 3rem;
+    width: 3rem;
+}
