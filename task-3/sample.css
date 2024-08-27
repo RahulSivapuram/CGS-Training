@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.story-image {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.post-header .story-image {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.post-image {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.footer-post-icons {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.suggest-options p {
+    font-weight: bold;
+}
+
+.option-item-logo{
+    height: 1rem;
+    width: 1rem;
+}
